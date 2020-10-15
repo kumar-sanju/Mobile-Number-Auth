@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1045160580693",
+    "firebase_url": "https://mobilenoauth-c3590.firebaseio.com",
+    "project_id": "mobilenoauth-c3590",
+    "storage_bucket": "mobilenoauth-c3590.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045160580693:android:cef97762194704517b66dc",
+        "android_client_info": {
+          "package_name": "com.sanju.mobilenoauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045160580693-gc0r305gqrjq1b0v7c7rmqavc1kb5cg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanju.mobilenoauth",
+            "certificate_hash": "9bacf8f5a98c6c5b058392ea1655d62124158c04"
+          }
+        },
+        {
+          "client_id": "1045160580693-iho9t8198ac14f65km0s9alh8i7nk12g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQCgxPxGU7pKc-ccd0ZWRX31VcLHlc0c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045160580693-iho9t8198ac14f65km0s9alh8i7nk12g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
