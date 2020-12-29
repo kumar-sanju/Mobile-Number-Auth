@@ -1,42 +1,100 @@
 {
   "project_info": {
-    "project_number": "1045160580693",
-    "firebase_url": "https://mobilenoauth-c3590.firebaseio.com",
-    "project_id": "mobilenoauth-c3590",
-    "storage_bucket": "mobilenoauth-c3590.appspot.com"
+    "project_number": "709060833747",
+    "firebase_url": "https://phonesignin-c7c7c.firebaseio.com",
+    "project_id": "phonesignin-c7c7c",
+    "storage_bucket": "phonesignin-c7c7c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1045160580693:android:cef97762194704517b66dc",
+        "mobilesdk_app_id": "1:709060833747:android:fb4dbe71480bbb5515bf26",
         "android_client_info": {
-          "package_name": "com.sanju.mobilenoauth"
+          "package_name": "com.sanju.learning"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1045160580693-gc0r305gqrjq1b0v7c7rmqavc1kb5cg3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.sanju.mobilenoauth",
-            "certificate_hash": "9bacf8f5a98c6c5b058392ea1655d62124158c04"
-          }
-        },
-        {
-          "client_id": "1045160580693-iho9t8198ac14f65km0s9alh8i7nk12g.apps.googleusercontent.com",
+          "client_id": "709060833747-77u7mtmrckki4aqjuq4a4fluci38b8v0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAQCgxPxGU7pKc-ccd0ZWRX31VcLHlc0c4"
+          "current_key": "AIzaSyClk4pCdj509kcfPfDt_3rTBlhodAhG8Qk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1045160580693-iho9t8198ac14f65km0s9alh8i7nk12g.apps.googleusercontent.com",
+              "client_id": "709060833747-77u7mtmrckki4aqjuq4a4fluci38b8v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709060833747:android:f049d0459254faea15bf26",
+        "android_client_info": {
+          "package_name": "com.sanju.mobilenoauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709060833747-77u7mtmrckki4aqjuq4a4fluci38b8v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClk4pCdj509kcfPfDt_3rTBlhodAhG8Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709060833747-77u7mtmrckki4aqjuq4a4fluci38b8v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709060833747:android:07c664c0c595ae4d15bf26",
+        "android_client_info": {
+          "package_name": "com.sanju.phonesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709060833747-3k3qaclu1d77g12ikvukfujgi606p11q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanju.phonesignin",
+            "certificate_hash": "f1e1aef12b4322415ee7fa120f0c53aeefdd269a"
+          }
+        },
+        {
+          "client_id": "709060833747-77u7mtmrckki4aqjuq4a4fluci38b8v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClk4pCdj509kcfPfDt_3rTBlhodAhG8Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709060833747-77u7mtmrckki4aqjuq4a4fluci38b8v0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

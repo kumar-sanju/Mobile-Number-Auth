@@ -3,6 +3,7 @@ package com.sanju.mobilenoauth;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextPhone, editTextCode;
     FirebaseAuth mAuth;
     String codeSent;
+    String phone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
                             //here you can open new activity
                             Toast.makeText(getApplicationContext(),
                                     "Login Successfull", Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                            intent.putExtra("phone",phone);
+                            startActivity(intent);
+                            finish();
                         } else {
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
                                 Toast.makeText(getApplicationContext(),
@@ -77,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void sendVerificationCode(){
 
-        String phone = editTextPhone.getText().toString();
+        phone = editTextPhone.getText().toString();
 
         if(phone.isEmpty()){
             editTextPhone.setError("Phone number is required");

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataValidationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit New Application"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:text="Enter Client Mobile Number"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/yourNo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Validate Mobile Number"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/noSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/pgName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Property/PG Name"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="City"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/area"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Area/Locality"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Owner Name(Optional)"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/language"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Preferred Language(Optional)"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
